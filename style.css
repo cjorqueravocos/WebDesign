@@ -125,14 +125,18 @@ tr:hover {
     animation-iteration-count: infinite;
     
 }
+.tabla-container {
+    display: flex;
+    justify-content: center;
+}
 
-@keyframe color {
+@keyframes color {
     0%{background: #ef8354;}
     50%{background: #F5EE9E;}
     100%{background: #ef8354;}
 }
 
-@font-face {
+@font-face { 
     font-family: "Montserrat-Italic";
     src: url('fonts/Montserrat-Italic.ttf');
 }
