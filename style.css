@@ -100,3 +100,10 @@ tr:hover {
 .form input[type="submit"]:hover {
     background: #ef8354;
 }
+
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+    border: 2px solid #ef8354;
+}
