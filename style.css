@@ -95,6 +95,7 @@ tr:hover {
     cursor: pointer;
     font-size: 14px;
     color: #fff;
+    transition:all .5s ease;
 }
 
 .form input[type="submit"]:hover {
