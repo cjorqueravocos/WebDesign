@@ -111,3 +111,19 @@ tr:hover {
 .form textarea:focus {
     border: 2px solid #ef8354;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #ef8354;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframe color {
+    0%{background: #ef8354;}
+    50%{background: #F5EE9E;}
+    100%{background: #ef8354;}
+}
