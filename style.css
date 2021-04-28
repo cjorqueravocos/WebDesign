@@ -32,3 +32,25 @@ body {
 .menu li a:hover {
     background: #ef8354;
 }
+
+table, td, th {
+    border: 1px solid rgba(0,0,0, .1)
+}
+
+table {
+    border-collapse: collapse;
+    width:500px;
+    text-align: center;
+}
+
+td, th {
+    padding: 10px 20px;
+}
+
+th {
+    background: #ef8354;
+}
+
+tr:hover {
+    background: #fff;
+}
