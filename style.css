@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Sans-serif, Helvetica;
+    font-family: "Monserrat";
     background: #e8e8e8;
 }
 
@@ -38,7 +38,7 @@ h1 {
 }
 
 table, td, th {
-    border: 1px solid rgba(0,0,0, .1)
+    border: 1px solid rgba(0,0,0, .1);
 }
 
 table {
@@ -126,4 +126,21 @@ tr:hover {
     0%{background: #ef8354;}
     50%{background: #F5EE9E;}
     100%{background: #ef8354;}
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('fonts/Montserrat-Italic.ttf');
+}
+@font-face {
+    font-family: "Monserrat";
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: "Monserrat";
+    src: url('fonts/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: "Monserrat";
+    src: url('fonts/Montserrat-SemiBold.ttf');
 }
