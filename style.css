@@ -8,10 +8,12 @@ body {
     font-family: "Montserrat-Light";
     background: #e8e8e8;
 }
+title {
+    top: 20px;
+}
 
 h1 {
     text-align: center;
-    margin-top: 2rem;
 }
 .menu {
     list-style: none;
@@ -38,6 +40,42 @@ h1 {
 .menu li a:hover {
     background: #ef8354;
     font-family:"Montserrat";
+}
+
+.container {
+    width: 1000px;
+    background: #ccc;
+    margin: 20px auto;
+}
+
+header {
+    background: #092327;
+    color: #fff;
+    padding: 20px;
+}
+
+.main {
+    background: #fff;
+    padding: 20px;
+    width: 700px;
+    float: left;
+    
+}
+
+aside {
+    background: #EF8354;
+    color: #fff;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+
+.foot {
+    clear: both;
+    background: #092327;
+    color: #fff;
+    padding: 20px;
 }
 
 table, td, th {
