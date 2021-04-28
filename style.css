@@ -84,3 +84,19 @@ tr:hover {
     min-width: 100%;
     max-width: 100%;
 }
+
+.form input[type="submit"] {
+    width: 200px;
+    margin: 0 auto;
+    background: #092327;
+    border: 1px solid rgba(0,0,0, .2);
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+.form input[type="submit"]:hover {
+    background: #ef8354;
+}
